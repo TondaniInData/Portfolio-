@@ -50,13 +50,6 @@ section{
     z-index:1000;
 }
 
-.nav-logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    width:45px;
-}
-
 .nav-links{
     display:flex;
     gap:35px;
