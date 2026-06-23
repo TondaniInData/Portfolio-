@@ -360,14 +360,32 @@ section{
 }
 
 .tool-box{
-    min-width:180px;
-    margin-right:20px;
-    padding:20px;
-    background:#f3f4f6;
-    border-radius:10px;
-    text-align:center;
-    font-weight:600;
-    color:#2563eb;
+    min-width:140px;
+    height:100px;
+    margin-right:25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:white;
+
+    border-radius:12px;
+
+    border:1px solid #e5e7eb;
+
+    transition:0.3s ease;
+}
+
+
+.tool-box:hover{
+    transform:translateY(-6px);
+}
+
+
+.tool-box img{
+    width:55px;
+    object-fit:contain;
 }
 
 @keyframes scrollLeft{
