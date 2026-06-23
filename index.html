@@ -1,60 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tondani Sadiki | Portfolio</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Font -->
+    <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
+
+    <!-- ========================================= -->
+    <!-- NAVBAR -->
+    <!-- ========================================= -->
 
     <nav class="navbar">
-        <div class="logo">Tondani Sadiki</div>
+
+        <div class="nav-logo">
+
+            <!-- INSERT YOUR OWN LOGO -->
+
+            <img src="logo.png" alt="Logo">
+
+        </div>
+
 
         <ul class="nav-links">
+
             <li><a href="#about">About</a></li>
+
             <li><a href="#skills">Skills</a></li>
+
             <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#tools">Tools</a></li>
+
             <li><a href="#education">Education</a></li>
+
+            <li><a href="#certifications">Certifications</a></li>
+
             <li><a href="#contact">Contact</a></li>
+
         </ul>
+
     </nav>
 
 
+
+
+    <!-- ========================================= -->
     <!-- HERO SECTION -->
+    <!-- ========================================= -->
 
     <section class="hero">
 
         <div class="hero-left">
 
-            <h1>Tondani Sadiki</h1>
+            <h1>TONDANI SADIKI</h1>
 
-            <h2>
-    <span id="changing-text"></span></h2>
 
-            <p>
-                Passionate about transforming data into meaningful insights
-                and building analytical solutions that solve real-world problems.
-            </p>
+            <!-- SLIDING TEXT -->
+
+            <div class="role-container">
+
+                <h2 id="sliding-role">
+
+                    Data Science
+
+                </h2>
+
+            </div>
+
+
+
+            <!-- TYPING EFFECT -->
+
+            <div class="hero-typing-container">
+
+                <p>
+
+                    <span id="typing-dark"></span>
+
+                    <span id="typing-light"></span>
+
+                </p>
+
+            </div>
+
+
 
             <div class="hero-buttons">
 
                 <a href="cv.pdf" class="btn-primary" target="_blank">
+
                     Download CV
+
                 </a>
 
+
                 <a href="#contact" class="btn-secondary">
+
                     Contact Me
+
                 </a>
 
             </div>
@@ -62,9 +125,11 @@
         </div>
 
 
-        <div class="hero-right">
 
-            <!-- Replace later with your image -->
+
+        <!-- RIGHT SIDE IMAGE -->
+
+        <div class="hero-right">
 
             <img src="profile.jpg" alt="Profile Picture">
 
@@ -72,93 +137,62 @@
 
     </section>
 
+
+
+
+
+    <!-- ========================================= -->
     <!-- ABOUT SECTION -->
+    <!-- ========================================= -->
 
-    <section id="about" class="about">
-        
-        <div class="section-title">
+    <section id="about" class="about-section">
+
+        <div class="section-heading">
+
             <h2>About Me</h2>
-        </div>
-        <div class="about-content">
-            <p>
-                I am an emerging data professional with a strong interest in using data, technology, and analytical thinking to solve complex problems. 
-                My background in economics and quantitative analysis has shaped how I approach decision-making,
-                while my growing experience in data science continues to deepen my passion for machine learning, analytics, and building impactful solutions.
-            </p>
- <p>
-               Through my academic journey and practical projects, I have developed experience working with data throughout its lifecycle, from data collection and preparation to analysis, visualization, and predictive modelling. 
-     I enjoy transforming raw data into meaningful insights that support informed decision-making and create measurable value. 
-     My technical toolkit includes SQL, Python, Power BI, Excel, and statistical analysis techniques that enable me to uncover trends, identify opportunities, and communicate findings effectively.
-            </p>
-
-             <p>
-                I am particularly interested in the intersection of business and technology, where data-driven insights can be used to improve processes, enhance customer experiences, and support strategic objectives. 
-                 Whether working independently or collaborating within a team, I value curiosity, continuous learning, and a structured approach to problem-solving. 
-                 I am always eager to explore new methodologies, technologies, and analytical techniques that can help organizations make better decisions.
-            </p>
-             <p>
-                As I continue to develop my career in data science and analytics, I am seeking opportunities where I can apply my analytical skills, contribute to meaningful projects, and learn from experienced professionals.
-                 My goal is to leverage data to solve real-world challenges, drive innovation, and create solutions that have a positive impact on businesses and the communities they serve.
 
         </div>
 
-    </section>
-
-   <!-- Technical Skills  -->
-
-    <section id="projects" class="projects">
-
-        <div class="section-title">
-            <h2>Technical Skills</h2>
-        </div>
 
 
-        <div class="project-grid">
+        <div class="about-container">
 
-            <!-- skill set 1 -->
 
-            <div class="project-card">
+            <!-- LEFT BOX -->
 
-                <h3>Project 01</h3>
+            <div class="about-box">
 
                 <p>
-                    Placeholder for future data science project.
-                    Project description will go here.
-                </p>
 
-                <button>View Project</button>
+                    I am an emerging data professional passionate about solving
+                    complex problems through analytical thinking, machine learning,
+                    and intelligent business solutions.
+
+                    My academic background in economics, quantitative analysis,
+                    and technology has allowed me to develop a strong appreciation
+                    for how data can be transformed into meaningful insight that
+                    drives impactful decision-making.
+
+                    I am continuously building my technical capabilities while
+                    creating solutions that combine business understanding,
+                    analytical reasoning, and modern data technologies.
+
+                </p>
 
             </div>
 
 
-            <!-- PROJECT 2 -->
 
-            <div class="project-card">
+            <!-- RIGHT GLOBE -->
 
-                <h3>Data Science</h3>
+            <div class="about-animation">
 
-                <p>
-                    Placeholder for future dashboard or analytics project.
-                </p>
+                <!-- YOU CAN REPLACE THIS -->
 
-                <button>View Project</button>
+                <img src="globe.gif" alt="Rotating Globe">
 
             </div>
 
-
-            <!-- PROJECT 3 -->
-
-            <div class="project-card">
-
-                <h3>Power Bi & SQL</h3>
-
-                <p>
-                    Placeholder for future machine learning project.
-                </p>
-
-                <button>View Project</button>
-
-            </div>
 
         </div>
 
@@ -166,122 +200,336 @@
 
 
 
+
+
+    <!-- ========================================= -->
     <!-- SKILLS SECTION -->
+    <!-- ========================================= -->
 
-    <section id="skills" class="skills">
+    <section id="skills" class="skills-section">
 
-        <div class="section-title">
+
+        <div class="section-heading">
+
             <h2>Technical Skills</h2>
+
         </div>
 
 
-        <div class="skills-grid">
+
+        <div class="skills-container">
+
+
+
+            <!-- CARD 1 -->
 
             <div class="skill-card">
-                <h3>Programming</h3>
+
+                <div class="skill-icon">
+
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+                <h3>Programming & Databases</h3>
+
                 <p>Python</p>
+
                 <p>SQL</p>
-            </div>
 
-
-            <div class="skill-card">
-                <h3>Machine Learning & Analytics</h3>
-                <p>Machine Learning</p>
-                <p>Predictive Modelling</p>
-                <p>Data Analysis</p>
-                <p>Statistical Analysis</p>
-                <p>Data Cleaning</p>
-                <p>Exploratory Data Analysis</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>Libraries</h3>
-                <p>NumPy</p>
-                <p>Pandas</p>
-                <p>Scikit-learn</p>
-                <p>Matplotlib</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>Business Intelligence</h3>
-                <p>Power BI</p>
-                <p>Power Apps</p>
-                <p>Power Platform</p>
-            </div>
-
-
-            <div class="skill-card">
-                <h3>Tools & Platforms</h3>
-                <p>GitHub</p>
-                <p>Azure</p>
-                <p>VS Code</p>
-                <p>Jupyter Notebook</p>
-                <p>Google Colab</p>
                 <p>MySQL</p>
-                <p>SQL Server</p>
+
+                <p>Microsoft SQL Server</p>
+
             </div>
+
+
+
+
+
+            <!-- CARD 2 -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                </div>
+
+                <h3>Frameworks & Libraries</h3>
+
+                <p>NumPy</p>
+
+                <p>Pandas</p>
+
+                <p>Scikit-learn</p>
+
+            </div>
+
+
+
+
+
+            <!-- CARD 3 -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                </div>
+
+                <h3>Visualization & Analytics</h3>
+
+                <p>Power BI</p>
+
+                <p>Matplotlib</p>
+
+                <p>Business Intelligence</p>
+
+                <p>Data Analytics</p>
+
+            </div>
+
 
         </div>
 
     </section>
+        <!-- ========================================= -->
+    <!-- PROJECTS SECTION -->
+    <!-- ========================================= -->
 
+    <section id="projects" class="projects-section">
 
+        <div class="section-heading">
 
-    <!-- PROJECT SECTION -->
-
-    <section id="projects" class="projects">
-
-        <div class="section-title">
             <h2>Projects</h2>
+
         </div>
 
 
-        <div class="project-grid">
+        <div class="projects-grid">
+
 
             <!-- PROJECT 1 -->
 
-            <div class="project-card">
+            <div class="flip-card">
 
-                <h3>Project 01</h3>
+                <div class="flip-card-inner">
 
-                <p>
-                    Placeholder for future data science project.
-                    Project description will go here.
-                </p>
 
-                <button>View Project</button>
+                    <!-- FRONT -->
+
+                    <div class="flip-card-front">
+
+                        <i class="fa-solid fa-database"></i>
+
+                        <h3>Data Science</h3>
+
+                        <button>Project Link</button>
+
+                    </div>
+
+
+
+                    <!-- BACK -->
+
+                    <div class="flip-card-back">
+
+                        <p>
+
+                            Placeholder description for machine learning,
+                            data preprocessing, predictive modeling,
+                            and statistical analysis project.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
 
             </div>
+
+
 
 
             <!-- PROJECT 2 -->
 
-            <div class="project-card">
+            <div class="flip-card">
 
-                <h3>Data Science</h3>
+                <div class="flip-card-inner">
 
-                <p>
-                    Placeholder for future dashboard or analytics project.
-                </p>
+                    <div class="flip-card-front">
 
-                <button>View Project</button>
+                        <i class="fa-solid fa-chart-line"></i>
+
+                        <h3>Power BI + SQL</h3>
+
+                        <button>Project Link</button>
+
+                    </div>
+
+
+                    <div class="flip-card-back">
+
+                        <p>
+
+                            Placeholder dashboard and reporting project
+                            using SQL extraction, business intelligence,
+                            and visual analytics.
+
+                        </p>
+
+                    </div>
+
+                </div>
 
             </div>
 
 
+
+
+
             <!-- PROJECT 3 -->
 
-            <div class="project-card">
+            <div class="flip-card">
 
-                <h3>Power Bi & SQL</h3>
+                <div class="flip-card-inner">
 
-                <p>
-                    Placeholder for future machine learning project.
-                </p>
 
-                <button>View Project</button>
+                    <div class="flip-card-front">
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                        <h3>Power Apps</h3>
+
+                        <button>Project Link</button>
+
+                    </div>
+
+
+                    <div class="flip-card-back">
+
+                        <p>
+
+                            Placeholder automation and application project
+                            using Microsoft Power Platform and low-code
+                            development workflows.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- PROJECT 4 -->
+
+            <div class="flip-card">
+
+                <div class="flip-card-inner">
+
+
+                    <div class="flip-card-front">
+
+                        <i class="fa-solid fa-laptop-code"></i>
+
+                        <h3>Web Development</h3>
+
+                        <button>Project Link</button>
+
+                    </div>
+
+
+                    <div class="flip-card-back">
+
+                        <p>
+
+                            Placeholder frontend development project
+                            involving responsive design, UI implementation,
+                            and interactive web experiences.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ========================================= -->
+    <!-- TOOLS SECTION -->
+    <!-- ========================================= -->
+
+    <section id="tools" class="tools-section">
+
+        <div class="section-heading">
+
+            <h2>Tools & Technologies</h2>
+
+        </div>
+
+
+
+        <div class="tools-slider">
+
+
+            <div class="tools-track">
+
+                <!-- PLACEHOLDERS FOR LOGOS -->
+
+                <div class="tool-box">PYTHON</div>
+
+                <div class="tool-box">SQL</div>
+
+                <div class="tool-box">PANDAS</div>
+
+                <div class="tool-box">NUMPY</div>
+
+                <div class="tool-box">POWER BI</div>
+
+                <div class="tool-box">GITHUB</div>
+
+                <div class="tool-box">AZURE</div>
+
+                <div class="tool-box">POWER APPS</div>
+
+
+                <!-- REPEATED FOR LOOP -->
+
+                <div class="tool-box">PYTHON</div>
+
+                <div class="tool-box">SQL</div>
+
+                <div class="tool-box">PANDAS</div>
+
+                <div class="tool-box">NUMPY</div>
+
+                <div class="tool-box">POWER BI</div>
+
+                <div class="tool-box">GITHUB</div>
+
+                <div class="tool-box">AZURE</div>
+
+                <div class="tool-box">POWER APPS</div>
+
 
             </div>
 
@@ -292,39 +540,38 @@
 
 
 
-    <!-- EDUCATION SECTION -->
 
-    <section id="education" class="education">
 
-        <div class="section-title">
+    <!-- ========================================= -->
+    <!-- EDUCATION -->
+    <!-- ========================================= -->
+
+    <section id="education" class="education-section">
+
+        <div class="section-heading">
+
             <h2>Education</h2>
+
         </div>
 
 
+
         <div class="education-container">
+
 
             <div class="education-card">
 
                 <h3>STADIO Higher Education</h3>
 
-                <h4>Postgraduate Diploma in Data Science</h4>
+                <h4>Postgraduate Diploma</h4>
 
-                <p>2026</p>
+                <p>Data Science</p>
 
             </div>
+
 
 
             <div class="education-card">
-
-                <h3>Monash University</h3>
-
-                <h4>Bachelor Of Science</h4>
-
-                <p>Informmation Technology</p>
-
-            </div>
-
-             <div class="education-card">
 
                 <h3>Monash University</h3>
 
@@ -334,30 +581,79 @@
 
             </div>
 
+
+
+            <div class="education-card">
+
+                <h3>Richfield</h3>
+
+                <h4>BSc Information Technology</h4>
+
+                <p>Information Technology</p>
+
+            </div>
+
+
         </div>
 
     </section>
 
 
 
+
+
+
+    <!-- ========================================= -->
     <!-- CERTIFICATIONS -->
+    <!-- ========================================= -->
 
-    <section class="certifications">
+    <section id="certifications" class="certifications-section">
 
-        <div class="section-title">
+        <div class="section-heading">
+
             <h2>Certifications</h2>
+
         </div>
 
 
-        <div class="cert-grid">
+
+        <div class="certifications-container">
+
+
+            <!-- CERT 1 -->
 
             <div class="cert-card">
-                <p>Microsoft PL-300 Certification</p>
+
+                <div class="badge-placeholder">
+
+                    ADD BADGE
+
+                </div>
+
+                <h3>Microsoft PL-300</h3>
+
+                <a href="#">Credential Link</a>
+
             </div>
 
+
+
+            <!-- CERT 2 -->
+
             <div class="cert-card">
-                <p>Microsoft DP-700 Certification</p>
+
+                <div class="badge-placeholder">
+
+                    ADD BADGE
+
+                </div>
+
+                <h3>Microsoft DP-700</h3>
+
+                <a href="#">Credential Link</a>
+
             </div>
+
 
         </div>
 
@@ -366,38 +662,81 @@
 
 
 
-    <!-- CONTACT SECTION -->
 
-    <section id="contact" class="contact">
 
-        <div class="section-title">
+    <!-- ========================================= -->
+    <!-- CONTACT -->
+    <!-- ========================================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="section-heading">
+
             <h2>Contact</h2>
+
         </div>
 
 
         <div class="contact-container">
 
-            <p>Email:</p>
-            <p>Tondanisadiki20@gmail.com</p>
+            <p>Email: yourmail@gmail.com</p>
 
-            <br>
+            <p>Phone: +27 xx xxx xxxx</p>
 
-            <p>GitHub:</p>
-            <a href="https://github.com/TondaniInData" target="_blank">
-                github.com/TondaniInData
-            </a>
-
-            <br><br>
-
-            <p>LinkedIn:</p>
-
-            <a href="https://www.linkedin.com/in/tondani-sadiki/" target="_blank">
-                linkedin.com/in/tondani-sadiki
-            </a>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
 
         </div>
 
     </section>
+
+
+
+
+
+
+
+    <!-- ========================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================= -->
+
+    <footer>
+
+
+        <div class="footer-left">
+
+            <img src="logo.png" alt="Logo">
+
+        </div>
+
+
+
+        <div class="footer-right">
+
+            <a href="#">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+
+
+            <a href="#">
+
+                <i class="fa-solid fa-phone"></i>
+
+            </a>
+
+
+            <a href="#">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </a>
+
+
+        </div>
+
+
+    </footer>
 
 
 
@@ -405,5 +744,7 @@
 
     <script src="script.js"></script>
 
+
 </body>
+
 </html>
