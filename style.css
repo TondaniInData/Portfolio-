@@ -46,7 +46,7 @@ section{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    border-bottom:1px solid #e5e7eb;
+    border-bottom:3px solid #e5e7eb;
     z-index:1000;
 }
 
@@ -61,7 +61,9 @@ section{
     gap:35px;
     list-style:none;
 }
-
+.nav-logo img{
+    width:45px;
+}
 .nav-links a{
     text-decoration:none;
     color:#374151;
