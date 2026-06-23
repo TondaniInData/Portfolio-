@@ -222,10 +222,11 @@ section{
     flex:1;
     display:flex;
     justify-content:center;
-}
-
+    
 .about-animation img{
-    width:320px;
+    width:500px;
+    max-width:100%;
+    border-radius:12px;
 }
 
 /* ========================================= */
