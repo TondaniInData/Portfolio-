@@ -50,8 +50,10 @@ section{
     z-index:1000;
 }
 
-.nav-logo img{
-    width:60px;
+.nav-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
 }
 
 .nav-links{
