@@ -60,6 +60,60 @@ window.addEventListener("scroll", () => {
             link.classList.add("active");
         }
 
+        //////////////////////////////////////////////////////
+// HERO TYPING EFFECT
+//////////////////////////////////////////////////////
+
+const roles = [
+    "Data Science",
+    "Data Analyst",
+    "Business Intelligence",
+    "Microsoft Certified"
+];
+
+let roleIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+const changingText = document.getElementById("changing-text");
+
+function typeEffect() {
+
+    let currentRole = roles[roleIndex];
+
+    if (!isDeleting) {
+        changingText.textContent =
+            currentRole.substring(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === currentRole.length) {
+            isDeleting = true;
+            setTimeout(typeEffect, 1500);
+            return;
+        }
+
+    } else {
+        changingText.textContent =
+            currentRole.substring(0, charIndex - 1);
+        charIndex--;
+
+        if (charIndex === 0) {
+            isDeleting = false;
+            roleIndex++;
+
+            if (roleIndex === roles.length) {
+                roleIndex = 0;
+            }
+        }
+    }
+
+    let speed = isDeleting ? 50 : 100;
+
+    setTimeout(typeEffect, speed);
+}
+
+typeEffect();
+
     });
 
 });
