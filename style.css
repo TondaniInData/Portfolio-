@@ -20,12 +20,12 @@ body{
 }
 
 section{
-    padding:110px 8%;
+    padding:70px 8%;
 }
 
 .section-heading{
     text-align:center;
-    margin-bottom:70px;
+    margin-bottom:35px;
 }
 
 .section-heading h2{
@@ -50,8 +50,16 @@ section{
     z-index:1000;
 }
 
+.nav-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
 .nav-logo img{
     width:30px;
+    height:30px;
+    object-fit:contain;
 }
 
 .nav-links{
@@ -93,7 +101,7 @@ section{
 /* ========================================= */
 
 .hero{
-    min-height:100vh;
+    min-height:80vh;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -360,14 +368,25 @@ section{
 }
 
 .tool-box{
-    min-width:180px;
+    min-width:140px;
+    height:100px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
     margin-right:20px;
-    padding:20px;
-    background:#f3f4f6;
+
+    border:1px solid #e5e7eb;
     border-radius:10px;
-    text-align:center;
-    font-weight:600;
-    color:#2563eb;
+
+    background:white;
+}
+
+
+.tool-box img{
+    width:55px;
+    object-fit:contain;
 }
 
 @keyframes scrollLeft{
