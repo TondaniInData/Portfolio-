@@ -195,8 +195,8 @@ section{
 }
 
 .hero-right img{
-    width:800px;
-    height:800px;
+    width:400px;
+    height:400px;
     object-fit:cover;
     border-radius:50%;
     border:6px solid #2563eb;
@@ -233,7 +233,7 @@ section{
 }
 
 .about-animation img{
-    width:700px;
+    width:500px;
     max-width:100%;
     border-radius:14px;
 
