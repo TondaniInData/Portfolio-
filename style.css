@@ -470,14 +470,14 @@ section{
 
 footer{
     padding:20px 8%;
-
+margin-top:50px;
     display:flex;
     justify-content:space-between;
     align-items:center;
 
-    border-top:1px solid #e5e7eb;
+    border-top:2px solid #e5e7eb;
 
-    background:white;
+     background:#fafafa;
 }
 
 
