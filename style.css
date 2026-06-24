@@ -233,7 +233,9 @@ section{
 }
 
 .about-animation img{
-    width:320px;
+    width:500px;
+    max-width:100%;
+    border-radius:12px;
 }
 
 /* ========================================= */
@@ -295,7 +297,7 @@ section{
     position:relative;
     width:100%;
     height:100%;
-    transition:transform 0.8s;
+    transition:transform 1.4s;
     transform-style:preserve-3d;
 }
 
