@@ -195,8 +195,8 @@ section{
 }
 
 .hero-right img{
-    width:400px;
-    height:400px;
+    width:800px;
+    height:800px;
     object-fit:cover;
     border-radius:50%;
     border:6px solid #2563eb;
