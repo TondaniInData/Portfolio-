@@ -440,25 +440,36 @@ section{
 }
 
 .tool-box{
-    min-width:140px;
-    height:100px;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    min-width:140px;
+
+    height:100px;
 
     margin-right:20px;
 
-    border:1px solid #e5e7eb;
-    border-radius:10px;
+    display:flex;
 
-    background:white;
+    justify-content:center;
+
+    align-items:center;
+
+    background:#f9fafb;
+
+    border-radius:12px;
+
+    border:1px solid #e5e7eb;
+
 }
 
 
 .tool-box img{
+
     width:55px;
+
+    height:55px;
+
     object-fit:contain;
+
 }
 
 @keyframes scrollLeft{
