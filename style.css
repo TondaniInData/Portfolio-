@@ -101,11 +101,11 @@ section{
 /* ========================================= */
 
 .hero{
-    min-height:65vh;
+    min-height:50vh;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    gap:60px;
+    gap:50px;
 }
 
 .hero-left{
@@ -195,11 +195,10 @@ section{
 }
 
 .hero-right img{
-    width:280px;
-    height:280px;
+    width:320px;
+    height:320px;
     object-fit:cover;
     border-radius:50%;
-    border:6px solid #2563eb;
 }
 /* ========================================= */
 /* ABOUT */
