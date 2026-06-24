@@ -463,22 +463,6 @@ section{
     color:#2563eb;
 }
 
-/* ========================================= */
-/* CONTACT */
-/* ========================================= */
-
-.contact-container{
-    text-align:center;
-}
-
-.contact-container p{
-    margin-bottom:12px;
-    font-size:1.05rem;
-}
-
-/* ========================================= */
-/* FOOTER */
-/* ========================================= */
 
 footer{
     padding:18px 8%;
@@ -489,12 +473,12 @@ footer{
 }
 
 .footer-left img{
-    width:45px;
+    width:55px;
 }
 
 .footer-right{
     display:flex;
-    gap:25px;
+    gap:10px;
 }
 
 .footer-right a{
