@@ -297,15 +297,44 @@ section{
 /* ========================================= */
 
 .projects-grid{
+
     display:grid;
+
     grid-template-columns:repeat(2,1fr);
-    gap:40px;
+
+    gap:50px;          /* more space between project boxes */
+
+    margin-top:20px;
+
+}
+.project-wrapper{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;      /* centers button horizontally */
+
+    justify-content:center;
+
+    gap:20px;               /* space between card and button */
+
+    padding:10px;           /* breathing room around each project */
+
 }
 
 .flip-card{
+
     background:transparent;
+
+    width:100%;
+
+    max-width:420px;       /* keeps all cards same width */
+
     height:300px;
+
     perspective:1000px;
+
 }
 
 .flip-card-inner{
@@ -351,19 +380,29 @@ section{
 
 .project-btn{
 
+    display:inline-block;
+
     text-decoration:none;
 
     background:#2563eb;
 
     color:white;
 
-    padding:10px 20px;
+    padding:12px 24px;      /* internal button spacing */
 
     border-radius:8px;
 
+    font-size:0.95rem;
+
+    font-weight:500;
+
+    margin-top:8px;         /* extra space above button */
+
     transition:0.3s ease;
 
-    font-size:0.95rem;
+    text-align:center;
+
+    min-width:160px;        /* all buttons same size */
 
 }
 
